@@ -25,6 +25,12 @@ We propose a unified multimodal fusion strategy to counter modal redundancy and 
 
 [NTU RGB+D](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp) dataset.
 
+#### Training and Evaluation
+
+    python main_CMRH.py --datadir dataset_path --checkpointdir checkpoint_path --train --ske_cp skecp_path --rgb_cp rgbcp_path
+    
+    python main_CMRH.py --datadir dataset_path --checkpointdir checkpoint_path --test_cp testcp_path --no_bad_skel
+
 ### Acknowledgements
 
 This code is based on MFAS and MMTM.

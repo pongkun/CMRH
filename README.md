@@ -10,16 +10,20 @@ We propose a unified multimodal fusion strategy to counter modal redundancy and 
 
 #### Environment
 
-GPU: NVIDIA Tesla V100
-CentOS Linux release 7.7.1908
-CUDA 9.2
-python 3.7
-torch 1.6.0
-torchvision 0.7.0
-cupy 6.0.0
-scipy 1.5.2
-pillow 6.0.0
-numpy 1.17.4
+    GPU: NVIDIA Tesla V100
+    CentOS Linux release 7.7.1908
+    CUDA 9.2
+    python 3.7
+    torch 1.6.0
+    torchvision 0.7.0
+    cupy 6.0.0
+    scipy 1.5.2
+    pillow 6.0.0
+    numpy 1.17.4
+    
+#### Dataset
+
+[NTU RGB+D](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp) dataset.
 
 ### Acknowledgements
 
